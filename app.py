@@ -4,7 +4,6 @@ from flask import Flask, request
 from flask_mail import Mail, Message
 
 app = Flask(__name__)
-app.debug = True
 mail_settings = {
     "MAIL_SERVER": 'smtp.gmail.com',
     "MAIL_PORT": 465,
